@@ -1,0 +1,38 @@
+/* CSS file for SW-TCW RPG */
+
+/* CLASSES */
+body {
+    background-image: url("../images/swgame-bg-2.jpg");
+    }
+
+.character {
+    /* background-color: black; */
+    width: 200px;
+    height: 200px;
+    /* padding: 10px 10px 10px 10px; */
+    /* margin: 0px; */
+}
+
+
+/* ID'S */
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+#attackBtn {
+    margin: 80px 0px 0px 0px;
+}
+
+
+
+/* HEADINGS */
+h1 {font-family: 'News Cycle', sans-serif;
+    color: gold;
+    text-align: center;
+}
+h3 {font-family: 'News Cycle', sans-serif;
+    color: gold;
+    text-align: center;
+}
