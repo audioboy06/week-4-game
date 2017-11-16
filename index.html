@@ -20,41 +20,64 @@
                 <h1 id="title">Select Your Character!</h1>
             </div>
         </div>
+        <!-- character images -->
         <div class="row" id="characters">
-            <div class="col-md-2 thumbnail character" id="obi-wan">
-                <img src="assets/images/obi-game.png" alt="Obi-Wan Kenobi">
+            <div class="col-md-2 thumbnail" id="kenobi">
+                    <h5>Obi-wan Kenobi</h5>
+                    <img class="character" src="assets/images/obi-game.png" alt="Obi-Wan Kenobi">
             </div>
-            <div class="col-md-2 thumbnail character" id="anakin">
-                <img src="assets/images/anakin-game.jpg" alt="Anakin Skywalker">
+            <div class="col-md-2 thumbnail" id="anakin">
+                    <h5>Anakin Skywalker</h5>
+                <img class="character" src="assets/images/anakin-game.jpg" alt="Anakin Skywalker">
             </div>
-            <div class="col-md-2 thumbnail character" id="ahsoka">
-                <img src="assets/images/ahsoka-game.png" alt="Ahsoka Tano">
+            <div class="col-md-2 thumbnail" id="ahsoka">
+                    <h5>Ahsoka Tano</h5>
+                <img class="character" src="assets/images/ahsoka-game.png" alt="Ahsoka Tano">
             </div>
-            <div class="col-md-2 thumbnail character" id="greivous">
-                <img src="assets/images/Grievous-game.jpg" alt="General Greivous">
+            <div class="col-md-2 thumbnail" id="grievous">
+                    <h5>General Grievous</h5>
+                <img class="character" src="assets/images/Grievous-game.jpg" alt="General Greivous">
             </div>
-            <div class="col-md-2 thumbnail character" id="cadbane">
-                <img src="assets/images/cad-bane-game.png" alt="Cad Bane">
+            <div class="col-md-2 thumbnail" id="cadbane">
+                    <h5>Cad Bane</h5>
+                <img class="character" src="assets/images/cad-bane-game.png" alt="Cad Bane">
             </div>
-            <div class="col-md-2 thumbnail character" id="ventress">
-                <img src="assets/images/ventress-game.png" alt="Asajj Ventress">
+            <div class="col-md-2 thumbnail" id="ventress">
+                    <h5>Asajj Ventress</h5>
+                <img class="character" src="assets/images/ventress-game.png" alt="Asajj Ventress">
             </div>
         </div>
-        <div class="row" id="selections">
-            <div class="col-md-4" id="selectedChar">
+        <div class="row" id="attk-def-combattxt">
+            <div class="col-md-4" id="attacker">
                 <h3>Attacker</h3>
             </div>
+            <div class="col-md-4 panel panel-danger">Combat Info
+                <div class="panel-body">
+                    <!-- empty div -->
+                </div>
+            </div>
+            <div class="col-md-4" id="defender">
+                <h3>Defender</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" id="selectedChar">
+                <!-- empty div -->
+            </div>
             <div class="col-md-4" id="attackBtn">
-                <button type="button" class="btn btn-danger btn-lg btn-block">ATTACK!</button>
+                 <button type="button" class="btn btn-danger btn-lg btn-block">ATTACK!</button><br>
+                 <!-- <button type="button" class="btn btn-warning btn-md btn-block">RESET</button> -->
+                 <a href="index.html" class="btn btn-warning btn-md btn-block" role="button">RESET</a>
+                 
             </div>
             <div class="col-md-4" id="selectedDef">
-                <h3>Defender</h3>
+                <!-- empty div -->
             </div>
         </div>
 
     </div>
-    
 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 
